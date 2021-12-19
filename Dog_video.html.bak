@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Video of dog</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<main>
+			<nav>
+				<a href="Assignment.html">Home</a>
+				<a href="Dog.html">Dog Picture</a>
+				<a href="Dog_video.html">Dog Video</a>
+			</nav>
+			<blockquote cite="https://en.wikipedia.org/wiki/Dog">
+			Over the millennia, dogs became uniquely adapted to human behavior, and the human-canine bond has been a topic of frequent study.
+			</blockquote>
+			<p>-Wikipedia</p>
+			<iframe width ="420" height="315"
+			src="https://www.youtube.com/embed/bcfX2jNEA5o">
+			</iframe>
+			<a href="https://www.youtube.com/watch?v=bcfX2jNEA5o">Here's a cute dog video</a>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
