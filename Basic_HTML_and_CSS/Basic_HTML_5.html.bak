@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Basic_CSS_2.css">
+</head>
+<body>
+	<p>This text is formatted using the Basic_CSS_2.css file.</p>
+	<p>This &amp symbol is displayed using an entity name.</p>
+</body>
+</html>

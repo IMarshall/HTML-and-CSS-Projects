@@ -1,0 +1,23 @@
+h1 {
+	font-family: 'Rock 3D';
+}
+
+table {
+	border: 5px solid black;
+	text-align:center;
+}
+
+tr, th {
+	background-color:black;
+	color:Aquamarine;
+}
+
+tr, td {
+	background-color:Aquamarine;
+	color:black;
+}
+
+td:hover {
+	background-color:AliceBlue;
+	color:black;
+}

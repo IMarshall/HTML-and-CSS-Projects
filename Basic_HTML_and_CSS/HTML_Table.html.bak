@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table {
+		text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Instruments Table</h1>
+	<table style="width:100%">
+		<tr>
+			<th>Instruments</th>
+			<th>Family</th>
+			<th>Cost</th>
+		</tr>
+		<tr>
+			<td>Guitar</td>
+			<td>Strings</td>
+			<td>$</td>
+		</tr>
+		<tr>
+			<td>Oboe</td>
+			<td>Woodinds</td>
+			<td>$$$</td>
+		</tr>
+		<tr>
+			<td>Vibraphone</td>
+			<td>Percussion</td>
+			<td>$$</td>
+		</tr>
+		<tr>
+			<td>Trumpet</td>
+			<td>Brass</td>
+			<td>$$</td>
+		</tr>
+	</table>
+</body>
+</html>

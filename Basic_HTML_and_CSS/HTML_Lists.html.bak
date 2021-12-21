@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<ul>
+		<li>Person</li>
+		<li>Woman</li>
+		<li>Man</li>
+		<li>Camera</li>
+		<li>TV</li>
+	</ul>
+	<ol>
+		<li>A</li>
+		<li>B</li>
+		<li>C</li>
+		<li>D</li>
+		<li>E</li>
+	</ol>
+</body>
+</html>
