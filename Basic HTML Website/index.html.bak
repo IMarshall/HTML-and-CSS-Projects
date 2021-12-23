@@ -1,0 +1,188 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Spicy Pickle</title>
+	</head>
+	<body>
+	
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RECIPE SUBMISSIONS</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span>The Spicy Pickle</span>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<div>
+				
+					<!-- PHOTO CONTAINER 1 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_1.jpg" alt="Easy Homemade Dill Pickles">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Easy Homemade Dill Pickles<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 1 -->
+					
+					<!-- PHOTO CONTAINER 2 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_2.jpg" alt="Killer Spicy Garlic Dill Pickles">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Killer Spicy Garlic Dill Pickles<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 2 -->
+					
+					<!-- PHOTO CONTAINER 3 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_3.jpg" alt="Easy Homemade Pickle">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Easy Homemade Pickle<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 3 -->
+					
+					<!-- PHOTO CONTAINER 4 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_4.jpg" alt="Quick Pickled Cucumbers">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Quick Pickled Cucumbers<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 4 -->
+					
+					<!-- PHOTO CONTAINER 5 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_5.jpg" alt="Garlic Dill Pickles">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Garlic Dill Pickles<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 5 -->
+					
+					<!-- PHOTO CONTAINER 6 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_6.jfif" alt="Quick Pickle Brine">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Quick Pickle Brine<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 6 -->
+					
+					<!-- PHOTO CONTAINER 7 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_7.jpg" alt="5-Minute Dill Pickles">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>5-Minute Dill Pickles<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 7 -->
+					
+					<!-- PHOTO CONTAINER 8 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_8.webp" alt="Jalapen&#771;o Garlic Dill Pickles">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>Jalapen&#771;o Garlic Dill Pickles<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 8 -->
+					
+					<!-- PHOTO CONTAINER 9 -->
+					<div>
+						<div>
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We are adding new recipes daily. Submit yours today!<p>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 9 -->
+					
+				</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- RSVP -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Recipe Submissions</h1>
+					<div>
+						<h2><span>Your recipe could be featured on our website.</span>
+							<br />Submit your today!
+						</h2>
+						<p>
+							Please provide us with your basic contact information and an outline of your recipe.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<div>
+			www.thespicypickle.food &nbsp;|&nbsp; &copy; 2021
+		</div>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>
