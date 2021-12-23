@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>The Spicy Pickle</title>
+		<title>Custom Fidget Spinners</title>
 	</head>
 	<body>
 	
@@ -11,8 +11,9 @@
 			<div>
 				<ul>
 					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#about"><li>ABOUT</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
-					<a href="#contact"><li>RECIPE SUBMISSIONS</li></a>
+					<a href="#contact"><li>ORDER</li></a>
 				</ul>
 			</div>
 		</div>
@@ -22,11 +23,22 @@
 		<div id="home">
 			<div>
 				<div>
-					<span>The Spicy Pickle</span>
+					<span><h1>Custom Fidget Spinners</h1></span>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
+		
+		<!-- ABOUT US -->
+		<div id="about">
+			<div>
+				<div>
+					<span><h2>About Us</h2></span>
+					<p>We make quality custom fidget spinners.</p>
+				</div>
+			</div>
+		</div>
+		<!-- END ABOUT -->
 		
 		<!-- GALLERY -->
 		<section>
@@ -147,24 +159,36 @@
 		</section>
 		<!-- END GALLERY -->
 		
-		<!-- RSVP -->
+		<!-- ORDER FORM -->
 		<section>
 			<div id="contact">
 				<div>
-					<h1>Recipe Submissions</h1>
+					<h1>Order Form</h1>
 					<div>
-						<h2><span>Your recipe could be featured on our website.</span>
-							<br />Submit yours today!
-						</h2>
+						<h3><span>Please fill out the order form below.</span>
+							<br />We will email you promptly with a quote.
+						</h3>
 						<p>
-							Please provide us with your basic contact information and an outline of your recipe.
+							Please provide us with your basic contact information and the custom features for your fidget spinner.
 						</p>
 						<div>
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="email" value="Email Address">
 								<input class="rsvp" type="text" value="Phone Number">
+								<label for="materials">Choose a material:</label>
+								<select id="materials" name="materials">
+									<option value="plastic">Plastic</option>
+									<option value="aluminum">Aluminum</option>
+									<option value="copper">Copper</option>
+									<option value="titanium">Titanium</option>
+								</select>
+								<label for="bearings">Choose a bearing:</label>
+								<select id="bearings" name="bearings">
+									<option value="steel">Steel</option>
+									<option value="ceramic">Ceramic</option>
+								</select>
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
