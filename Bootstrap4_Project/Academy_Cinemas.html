@@ -17,18 +17,18 @@
     
     <div class="container">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-info">
             
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">About</a>
+                            <a class="nav-link text-light" href="#about">About</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Showtimes</a>
+                            <a class="nav-link text-light" href="#showtimes">Showtimes</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Deals</a>
+                            <a class="nav-link text-light" href="#deals">Deals</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -40,13 +40,13 @@
 
             <div class="jumbotron jumbotron-fluid bg-info text-center">
                 <div class="container">
-                    <h1 class="display-4 text-light">Academy Cinemas</h1>
+                    <h1 class="display-1 text-light">ACADEMY CINEMAS</h1>
                     <p class="lead text-light">Sit back, relax, and enjoy the show...</p>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row">
+            <div class="container" id="about">
+                <div class="row mt-5">
                     <div class="col-sm">
                         
                         <img src="./img/pdx.jpg" class="img-fluid" alt="">
@@ -84,9 +84,60 @@
             </div>
 
             <!--SHOWTIMES-->
+            <div id="showtimes" class="my-5">
+                <h3>Showtimes:</h3>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" style="height:250px" src="./img/kongskullisland.jpg" alt="Scene from Kong Skull Island">
+                        <div class="card-body">
+                            <h5 class="card-title">Kong Skull Island</h5>
+                            <p class="card-text">A team of scientists explore an unchated island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.</p><br>
+                            <p class="card-footer">
+                                <a href="#" class="badge badge-pill badge-info">12:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">1:30 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">3:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">5:30 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">7:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">9:00 pm</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" style="height:250px" src="./img/ghostintheshell.jpg" alt="Scene from Ghost in the Shell">
+                        <div class="card-body">
+                            <h5 class="card-title">Ghost in the Shell</h5>
+                            <p class="card-text">In the near future, Major Mila Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p>
+                            <p class="card-footer">
+                                <a href="#" class="badge badge-pill badge-info">12:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">1:30 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">3:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">5:30 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">7:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">9:00 pm</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" style="height:250px" src="./img/beautyandthebeast.jpg" alt="Scene from Beauty and the Beast">
+                        <div class="card-body">
+                            <h5 class="card-title">Beauty and the Beast</h5>
+                            <p class="card-text">A selfish prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a beautiful young woman, he keeps prisoner.</p><br>
+                            <p class="card-footer">
+                                <a href="#" class="badge badge-pill badge-info">12:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">1:30 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">3:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">5:30 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">7:00 pm</a>
+                                <a href="#" class="badge badge-pill badge-info">9:00 pm</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--/SHOWTIMES-->
             
-            <div class="text-center">
+            <div class="text-center" id="deals">
                 <form>
                     <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
                     <div class="form-group">
