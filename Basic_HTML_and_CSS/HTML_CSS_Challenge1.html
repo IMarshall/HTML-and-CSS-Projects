@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head meta charset="utf-8">
+        <title>First HTML and CSS Challenge</title>
+        <style>
+            /*.center {
+                display: block;
+                margin-left:auto;
+                margin-right:auto;
+                width: 50%;
+            }*/
+
+            img {
+                filter: grayscale(100%);
+                border-radius: 20px;
+            }
+
+            .footer {
+                text-align: center;
+                font-weight: bold;
+            }
+
+            table, th, td {
+                border: 1px solid blue;'
+            }
+
+            th, td {
+                padding: 0px 20px;
+            }
+
+            th {
+                background-color: aquamarine;
+            }
+
+            .container {
+                position: relative;
+                text-align: center;
+                color: black;
+                font-size: 5vw;
+            }
+
+            .top {
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .bottom {
+                position: absolute;
+                bottom: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+            <tr>
+                <th>A</th>
+                <td>1A</td>
+                <td>2A</td>
+            </tr>
+            <tr>
+                <th>B</th>
+                <td>2B</td>
+                <td>1B</td>
+            </tr>
+        </table>
+
+        <div class="container">
+            <img src="./images/bernie.jfif" alt="bernie sanders meme" class="center" style="width:100%;">
+            <div class="top">I am once again</div>
+            <div class="bottom">looking up basic HTML and CSS syntax on the internet.</div>
+        </div>
+    </body>
+    <footer class="footer">
+        <p>This meme created by Ian Marshall using HTML and CSS</p>
+    </footer>
+</html>
