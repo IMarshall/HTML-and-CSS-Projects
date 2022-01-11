@@ -3,12 +3,6 @@
     <head meta charset="utf-8">
         <title>First HTML and CSS Challenge</title>
         <style>
-            /*.center {
-                display: block;
-                margin-left:auto;
-                margin-right:auto;
-                width: 50%;
-            }*/
 
             img {
                 filter: grayscale(100%);
@@ -21,7 +15,7 @@
             }
 
             table, th, td {
-                border: 1px solid blue;'
+                border: 1px solid blue;
             }
 
             th, td {
@@ -39,11 +33,46 @@
                 font-size: 5vw;
             }
 
+            .container:hover .image {
+                opacity: 0.3;
+            }
+
+            .container:hover .middle {
+                opacity: 1;
+            }
+
+            .text {
+                background-color:mediumslateblue;
+                color: white;
+                font-size: 50px;
+                padding: 16px 32px;
+            }
+
+            .image {
+                opacity: 1;
+                display: block;
+                width: 100%;
+                height: auto;
+                transition: .5s ease;
+                backface-visibility: hidden;
+            }
+
             .top {
                 position: absolute;
                 top: 10%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+            }
+
+            .middle {
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
             }
 
             .bottom {
@@ -53,31 +82,140 @@
                 transform: translate(-50%, -50%);
             }
 
+            .navbar {
+                overflow: hidden;
+                background-color: burlywood;
+                position:fixed;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+            }
+
+            .navbar a {
+                float: left;
+                display: block;
+                color:darkslategray;
+                text-align: center;
+                padding: 14px 16px;
+            }
+
+            .navbar a:hover {
+                background:lightcoral;
+                color: black;
+            }
+
+            #home {
+                margin-top: 100px;
+            }
+
+            .column {
+                flex: 50%;
+                text-align: center;
+                color:darkslategray;
+                height: 500px;
+                width: 50%;
+            }
+
+            .row {
+                display: flex;
+            }
+
+            p:hover {
+                color:deeppink;
+            }
+
+            video {
+                display: block;
+                margin: auto;
+            }
+
+            .vid-bottom {
+                color: white;
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            #contact h4 {
+                text-align: center;
+            }
+
+            #about h1 {
+                text-align: center;
+            }
+
         </style>
     </head>
     <body>
-        <table>
-            <tr>
-                <th></th>
-                <th>1</th>
-                <th>2</th>
-            </tr>
-            <tr>
-                <th>A</th>
-                <td>1A</td>
-                <td>2A</td>
-            </tr>
-            <tr>
-                <th>B</th>
-                <td>2B</td>
-                <td>1B</td>
-            </tr>
-        </table>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="home">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th>A</th>
+                    <td>1A</td>
+                    <td>2A</td>
+                </tr>
+                <tr>
+                    <th>B</th>
+                    <td>2B</td>
+                    <td>1B</td>
+                </tr>
+            </table>
 
-        <div class="container">
-            <img src="./images/bernie.jfif" alt="bernie sanders meme" class="center" style="width:100%;">
-            <div class="top">I am once again</div>
-            <div class="bottom">looking up basic HTML and CSS syntax on the internet.</div>
+            <div class="container">
+                <img src="./images/bernie.jfif" alt="bernie sanders meme" class="image" style="width:100%;">
+                <div class="top">I am once again</div>
+                <div class="middle">
+                    <div class="text">Bernie likes to code.</div>
+                </div>
+                <div class="bottom">looking up basic HTML and CSS syntax on the internet.</div>
+            </div>
+        </div>
+        <div id="about">
+            <h1>My name is Ian and I once threw a football over them mountains.</h1>
+            <div class="row">
+                <div class="column">
+                    <h2>JIM</h2>
+                    <h2>DWIGHT</h2>
+                    <h2>OSCAR</h2>
+                    <h2>DARRYL</h2>
+                    <h2>ANDY</h2>
+                    <h2>TOBY</h2>
+                    <br>
+                    <h2>PHYLLIS</h2>
+                    <h2>ANGELA</h2>
+                    <h2>KEVIN</h2>
+                </div>
+                <div class="column">
+                    <h2>STANLEY</h2>
+                    <h2>GABE</h2>
+                    <br>
+                    <h2>KELLY</h2>
+                    <h2>RYAN</h2>
+                    <h2>OLD MAN</h2>
+                    <h2>PAM</h2>
+                    <h2>MEREDITH</h2>
+                    <br>
+                    <h2>ERIN</h2>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <h4>You can contact me at imarshall18@gmail.com</h4>
+            <div class="container">
+                <video autoplay muted loop width="400"><source src="./videos/horse.mp4" type="video/mp4"></video>
+                <div class="vid-bottom">horse.</div>
+            </div>
         </div>
     </body>
     <footer class="footer">
