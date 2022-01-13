@@ -11,7 +11,7 @@ In this repository, I'll be storing projects I create while taking the HTML and 
 
 This is an example home page for a business. It's styled using CSS and contains a fixed navbar, image containers, and a contact form.
 
-[Video demo of this project](One-Page Website/images/One_Page_Website_Demo_Video.mp4)
+[Video demo of this project](One_Page_Website/images/One_Page_Website_Demo_Video.mp4)
 
 ### Movie Theater Website
 
