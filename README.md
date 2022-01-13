@@ -11,10 +11,10 @@ In this repository, I'll be storing projects I create while taking the HTML and 
 
 This is an example home page for a business. It's styled using CSS and contains a fixed navbar, image containers, and a contact form.
 
-[Video demo of this project](One_Page_Website/images/One_Page_Website_Demo_Video.mp4)
+[Video demo of this project - Download to view](One_Page_Website/images/One_Page_Website_Demo_Video.mp4)
 
 ### Movie Theater Website
 
 This is an example home page for a movie theater that is styled using Bootstrap 4. It contains many Bootstrap components including, but not limited to a fixed navbar with search box, jumbotron, form, cards, and dropdowns.
 
-[Video demo of this project](Bootstrap4_Project/img/Bootstrap4_Video_Demo.mp4)
+[Video demo of this project - Download to view](Bootstrap4_Project/img/Bootstrap4_Video_Demo.mp4)
