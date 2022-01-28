@@ -5,6 +5,7 @@
 		<title>Custom Fidget Spinners</title>
 		<link rel="stylesheet" href="./css/one_page_website.css">
 		<link rel="stylesheet" href="./css/animations.css">
+		<script src="JS/one_page_website.js" defer></script>
 	</head>
 	<body>
 	
@@ -57,7 +58,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.jpg" alt="Cool Kid Spinning">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal(); currentSlide(1)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -69,7 +70,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.jfif" alt="Futuristic Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(2)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -81,7 +82,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_3.jpg" alt="Glow In The Dark Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(3)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -93,7 +94,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_4.jpg" alt="Dragon Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(4)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -105,7 +106,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_5.jpg" alt="Fidget Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(5)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -117,7 +118,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_6.jpg" alt="Rainbow Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(6)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -129,7 +130,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_7.jpg" alt="Copper Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(7)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -141,7 +142,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_8.jpg" alt="Tri-Blade Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(8)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -153,7 +154,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="./images/thumb/thumbnail_9.jpg" alt="Gear Spinner">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(9)">
 								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Get a custom fidget spinner today!</p>
 							</div>
@@ -165,6 +166,105 @@
 			</div>
 		</section>
 		<!-- END GALLERY -->
+
+		<!-- MODAL LIGHTBOX -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+
+				<div class="mySlides">
+					<div class="numbertext">1 / 9</div>
+					<img src="./images/thumb/thumbnail_1_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">2 / 9</div>
+					<img src="./images/thumb/thumbnail_2_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">3 / 9</div>
+					<img src="./images/thumb/thumbnail_3_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">4 / 9</div>
+					<img src="./images/thumb/thumbnail_4_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 / 9</div>
+					<img src="./images/thumb/thumbnail_5_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">6 / 9</div>
+					<img src="./images/thumb/thumbnail_6_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">7 / 9</div>
+					<img src="./images/thumb/thumbnail_7_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">8 / 9</div>
+					<img src="./images/thumb/thumbnail_8_wide.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">9 / 9</div>
+					<img src="./images/thumb/thumbnail_9_wide.jpg" style="width:100%">
+				</div>
+
+				<!-- Next/Previous Controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="prev" onclick="plusSlides(1)">&#10095;</a>
+
+				<!-- Caption Text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- Thumbnail Image Controls -->
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_1_wide.jpg" onclick="currentSlide(1)" alt="Cool Kid Spinning">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_2_wide.jpg" onclick="currentSlide(2)" alt="Futuristic Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_3_wide.jpg" onclick="currentSlide(3)" alt="Glow-in-the-Dark Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_4_wide.jpg" onclick="currentSlide(4)" alt="Dragon Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_5_wide.jpg" onclick="currentSlide(5)" alt="Fidget Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_6_wide.jpg" onclick="currentSlide(6)" alt="Rainbow Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_7_wide.jpg" onclick="currentSlide(7)" alt="Copper Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_8_wide.jpg" onclick="currentSlide(8)" alt="Tri-Blade Spinner">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/thumb/thumbnail_9_wide.jpg" onclick="currentSlide(9)" alt="Gear Spinner">
+				</div>
+
+			</div>
+		</div>
 		
 		<!-- ORDER FORM -->
 		<section id="contact">
