@@ -29,15 +29,26 @@ function showSlides(n) {
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
 
+    // slides numbers wrap
     if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) {slideIndex = slides.length}
+    if (n < 1) { slideIndex = slides.length }
+    
+    // Hide all slides
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
+    
+    // Clear "active" designator from all thumbnails
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
+    // show the correct slide
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += "active";
+
+    // mark the correct thumbnail as active
+    dots[slideIndex - 1].className += " active";
+    
+
+    // Set the correct caption text
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
